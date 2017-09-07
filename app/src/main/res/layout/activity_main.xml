@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.okhttp.demo.MainActivity">
+
+    <Button
+        android:onClick="get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get同步"/>
+    <Button
+        android:onClick="getAsyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get异步"/>
+    <Button
+        android:onClick="post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post同步"/>
+
+    <Button
+        android:onClick="postAsyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post异步"/>
+
+</LinearLayout>
